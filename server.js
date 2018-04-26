@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 const PORT = process.env.PORT || 8080;
+console.log(PORT);
 app.use(bodyParser.json());
 
 // For Passport

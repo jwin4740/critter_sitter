@@ -1,10 +1,10 @@
 /* Creates blank database for Project #2 - Critter Sitter*/
 
-DROP DATABASE IF EXISTS critter_users; 
+DROP DATABASE IF EXISTS rb2ux36z1o8wexag; 
 
-CREATE DATABASE IF NOT EXISTS `critter_users`;
+CREATE DATABASE IF NOT EXISTS `rb2ux36z1o8wexag`;
 
-USE `critter_users`;
+USE `rb2ux36z1o8wexag`;
 
 DROP TABLE IF EXISTS `users`;
 
