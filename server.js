@@ -11,7 +11,9 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 const PORT = process.env.PORT || 8080;
-console.log(PORT);
+for (let i = 0; i < 50; i++) {
+    console.log(PORT);
+}
 app.use(bodyParser.json());
 
 // For Passport
@@ -58,9 +60,9 @@ models.sequelize.sync().then(function () {
 
 app.listen(PORT, function (err) {
     if (err) throw err;
-    else{
+    else {
         console.log("...server is listening on port", PORT);
-        
+
     }
 
 });
