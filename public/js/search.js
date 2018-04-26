@@ -10,7 +10,7 @@ function initMap() {
     // Create an array of alphabetical characters used to label the markers.
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-    $.get( "http://localhost:5000/sitters", function( data ) {
+    $.get( "/sitters", function( data ) {
       var html = "";
       for( var i = 0; i < data.length; i++ ){
           var current = data[i];
